@@ -46,7 +46,17 @@ p{
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
-  
+ 
+}
+
+.conteudo__subtitulo {
+  font-size: 64px;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  align-self: center;
+  text-transform: uppercase;
+  padding: 40px;
+
 }
 
 .foto-bicicleta {
@@ -82,4 +92,33 @@ p{
 
 h2, em, span {
   text-transform: capitalize;
+}
+.vantagens {
+  background: #fff;
+  padding: 40px;
+}
+
+.vantagens__item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.vantagens__item p {
+  grid-column: 2;
+}
+
+.vantagens__item span {
+  text-transform: none;
+}
+
+footer {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+
 }
