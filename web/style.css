@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 60px;
+}
+
+h2, h1, h3, p, span {
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  text-align: center;
+  padding: 30px;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+a{
+  padding: 40px;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.foto-bicicleta {
+  width: 100% ;
+  display: block;
+}
